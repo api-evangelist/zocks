@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: probed
+source: live probes of Zocks hosts
+note: >-
+  No Zocks-owned /.well-known/ discovery documents were found. www.zocks.io returns 404
+  for all probed paths; console.zocks.io (the app/OAuth host) returns 403 (present but
+  access-controlled, no public metadata). A security.txt served at help.zocks.io belongs
+  to Intercom (the third-party help-desk platform), not Zocks, so it is NOT recorded as a
+  Zocks artifact. Absence is valid, expected data for an MCP-first product with no public
+  REST API.
+hosts:
+  - host: https://www.zocks.io
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+  - host: https://console.zocks.io
+    documents:
+      - path: /.well-known/oauth-authorization-server
+        status: 403
+      - path: /.well-known/openid-configuration
+        status: 403
+      - path: /.well-known/security.txt
+        status: 403

@@ -1,8 +1,29 @@
 aid: zocks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zocks.png
 name: Zocks
-description: 'Zocks is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Zocks is an AI assistant for financial advisors that captures client conversations and
+  automates the administrative side of advice — meeting note-taking with speaker
+  attribution, meeting preparation, intake and account form filling, client email
+  drafting, document intelligence, and centralized client/household profiles. Captured
+  client intelligence syncs across CRM and wealth-management systems including Wealthbox,
+  HubSpot, Salesforce, Redtail, Practifi, eMoney, and Orion, with Zoom and Google Meet as
+  meeting sources. Rather than a public REST API, Zocks exposes this intelligence to AI
+  tools through an official hosted MCP server secured with OAuth 2.0 over Streamable HTTP,
+  installable as a connector in Claude, ChatGPT, and Microsoft Copilot with tool-call-level
+  audit logging. The company is SOC 2 Type 2 certified and was surfaced as a portfolio
+  company of QED Investors. Sector: fintech / wealthtech.
 url: https://raw.githubusercontent.com/api-evangelist/zocks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Wealthtech
+- Financial Advisors
+- Artificial Intelligence
+- MCP
+- Meeting Intelligence
+- CRM
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,38 @@ maintainers:
 common:
 - type: Website
   url: https://www.zocks.io
+- type: Documentation
+  url: https://help.zocks.io/en/
+- type: Support
+  url: https://help.zocks.io/en/
+- type: GettingStarted
+  url: https://academy.zocks.io/
+- type: Blog
+  url: https://www.zocks.io/resources/blog
+- type: Pricing
+  url: https://www.zocks.io/pricing
+- type: SignUp
+  url: https://console.zocks.io/signup
+- type: Login
+  url: https://console.zocks.io/login
+- type: TermsOfService
+  url: https://www.zocks.io/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.zocks.io/privacy-policy
+- type: MCPServer
+  url: mcp/zocks-mcp.yml
+- type: Compliance
+  url: https://www.zocks.io/security
+- type: Conformance
+  url: conformance/zocks-conformance.yml
+- type: DomainSecurity
+  url: security/zocks-domain-security.yml
+- type: WellKnown
+  url: well-known/zocks-well-known.yml
+- type: LLMsTxt
+  url: llms/zocks-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

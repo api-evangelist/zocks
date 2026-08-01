@@ -1,0 +1,57 @@
+generated: '2026-07-21'
+method: searched
+status: published
+source: https://help.zocks.io/en/collections/19244570-zocks-mcp-server
+docs:
+  overview: https://help.zocks.io/en/collections/19244570-zocks-mcp-server
+  knowledge_base: https://help.zocks.io/en/articles/15331595-zocks-mcp-server-knowledge-base
+  connect_claude: https://help.zocks.io/en/articles/15445296-connect-to-the-zocks-mcp-server-with-claude
+  connect_chatgpt: https://help.zocks.io/en/articles/15445298-connect-to-the-zocks-mcp-server-with-chatgpt
+  connect_copilot: https://help.zocks.io/en/articles/15445299-connect-to-the-zocks-mcp-server-with-microsoft-copilot
+  data_privacy: https://help.zocks.io/en/articles/14172796-zocks-mcp-claude-data-privacy
+server:
+  name: Zocks
+  transport: http            # Streamable HTTP
+  auth: oauth2               # OAuth 2.0 through the user's Zocks login; AI tool never sees the password
+  note: >-
+    Hosted/remote MCP server offered by Zocks and installed as a connector inside the
+    AI client (Claude, ChatGPT, Microsoft Copilot via Copilot Studio). The public docs
+    do not publish a manually enterable endpoint URL — connection is via each client's
+    connector catalog ("Zocks") plus an OAuth 2.0 sign-in. Requires OAuth 2.0 and
+    Streamable HTTP transport support on the client side.
+supported_clients:
+  - Claude (claude.ai and Claude for Desktop)
+  - ChatGPT (Plus, Pro, Business, Enterprise, Edu)
+  - Microsoft Copilot (via Copilot Studio)
+audit_logging: >-
+  Zocks logs MCP activity at the tool-call level: which user triggered a read, through
+  which AI tool, when, and what data was accessed.
+data_access:
+  can_read:
+    - meeting transcripts
+    - meeting summaries
+    - meeting results / outputs
+    - conversation insights
+    - contact records
+    - household records
+  cannot_access:
+    - CRM systems
+    - portfolio / custodial data
+    - financial planning tools
+# Default prompts Zocks publishes for the MCP surface in Claude (not raw tool ids —
+# the docs expose curated prompts over the read tools above).
+default_prompts:
+  - name: Tax Opportunities
+    description: Identifies tax-planning opportunities cited to source meetings.
+  - name: Evaluate Last Meeting
+    description: Scores recent meetings with compliance flags.
+  - name: Client Motivators
+    description: Profiles client drivers with suggested actions.
+  - name: Topic Tracker
+    description: Follows a single topic across meetings.
+  - name: Planning Topic Gaps
+    description: Maps meetings against ten core planning topics.
+  - name: Sentiment Trend
+    description: Analyzes engagement over time for retention risk.
+  - name: Annual Client Letter
+    description: Generates a personalized year-in-review letter.

@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.zocks.io/security
+standards:
+  - id: soc2-type2
+    conforms: true
+    evidence: >-
+      Zocks security page states the platform is SOC 2 Type 2 certified, with annual
+      penetration testing, quarterly external vulnerability scans, encryption at rest and
+      in transit, MFA-enforced access, and formal incident response / BCDR programs.
+  - id: oauth2
+    conforms: true
+    evidence: >-
+      Zocks MCP server authenticates via OAuth 2.0 through the user's Zocks login
+      (help.zocks.io MCP connect docs).
+  - id: iso-27001
+    conforms: false
+    evidence: not claimed on the Zocks security page
+  - id: hipaa
+    conforms: false
+    evidence: not claimed for the Zocks product (HIPAA referenced only for Microsoft 365 Copilot as a client)
+  - id: pci-dss
+    conforms: false
+  - id: gdpr
+    conforms: false
+    evidence: not explicitly claimed on the Zocks security page
+compliance_program:
+  published: true
+  url: https://www.zocks.io/security
+  certifications:
+    - SOC 2 Type 2
+  subprocessors:
+    - Amazon Web Services (AWS)

@@ -1,0 +1,27 @@
+# Zocks
+
+> Zocks is an AI assistant for financial advisors that captures client conversations and automates administrative work — meeting note-taking, meeting prep, form filling, client email drafting, document intelligence, and client profile management — and syncs the resulting client intelligence across CRM and wealth-management systems. Zocks exposes this client intelligence to AI tools through an official, OAuth-secured MCP server rather than a public REST API.
+
+## Product
+- [Zocks](https://www.zocks.io): AI assistant for financial advisors (note-taking, meeting prep, form fill, client email, document intelligence, client profiles).
+- [Pricing](https://www.zocks.io/pricing): Essentials, Professional, Ultimate, and Enterprise Platform tiers; Zocks MCP is included from the Professional tier up.
+- [Security](https://www.zocks.io/security): SOC 2 Type 2 certified; AWS as subprocessor; encryption at rest/in transit; annual pen testing.
+
+## Agent access
+- [Zocks MCP Server](https://help.zocks.io/en/collections/19244570-zocks-mcp-server): Hosted MCP server, OAuth 2.0 + Streamable HTTP, installed as a connector in Claude, ChatGPT, and Microsoft Copilot. Read access to meeting transcripts, summaries, results, conversation insights, and contact/household records. Tool-call-level audit logging.
+- [MCP data privacy](https://help.zocks.io/en/articles/14172796-zocks-mcp-claude-data-privacy)
+- [Connect with Claude](https://help.zocks.io/en/articles/15445296-connect-to-the-zocks-mcp-server-with-claude)
+
+## Docs
+- [Help Center](https://help.zocks.io/en/)
+- [Zocks Academy](https://academy.zocks.io/)
+- [Blog](https://www.zocks.io/resources/blog)
+
+## Integrations
+- Zoom, Google Meet, Wealthbox, HubSpot, Salesforce, eMoney, Orion, Redtail, Practifi, Zapier.
+
+## Account
+- [Sign up](https://console.zocks.io/signup)
+- [Login](https://console.zocks.io/login)
+- [Terms of Service](https://www.zocks.io/terms-of-service)
+- [Privacy Policy](https://www.zocks.io/privacy-policy)
