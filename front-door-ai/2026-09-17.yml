@@ -1,0 +1,33 @@
+# Front Door AI Index — zocks — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: zocks
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.zocks.io
+  final_host: www.zocks.io
+  ownership: own
+  owner: zocks
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 39
+  host_score: 39
+  density: 27.6
+  words: 1413
+  tiers:
+    agentic: 11
+    core: 22
+    model: 6
+  ambiguous: 4
+  top_terms:
+    AI: 21
+    AI assistant: 7
+    Claude: 4
+    intelligence: 4
+    ChatGPT: 2
+    MCP: 2
+    LLMs: 1
+    agentic: 1
+    copilot: 1
