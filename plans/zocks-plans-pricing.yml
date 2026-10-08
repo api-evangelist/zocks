@@ -1,0 +1,74 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.zocks.io/pricing
+sources:
+- https://www.zocks.io/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Per-seat tiered SaaS for financial advisors; 2 months free with annual payment; 14-day free trial.
+  REST API integrations listed as 'Contact us'.
+plan_count: 8
+currency: USD
+plans:
+- name: Essentials (annual)
+  price_text: $67 per user/month (billed annually)
+  price: 67
+  currency: USD
+  period: month
+  unit: per user
+  included_quota: Unlimited meetings
+- name: Professional (annual)
+  price_text: $117 per user/month (billed annually)
+  price: 117
+  currency: USD
+  period: month
+  unit: per user
+  included_quota: Everything in Essentials and more
+- name: Ultimate (annual)
+  price_text: $184 per user/month (billed annually)
+  price: 184
+  currency: USD
+  period: month
+  unit: per user
+  included_quota: Everything in Professional and more
+- name: Essentials (monthly)
+  price_text: $80 per user/month (billed monthly)
+  price: 80
+  currency: USD
+  period: month
+  unit: per user
+- name: Professional (monthly)
+  price_text: $140 per user/month (billed monthly)
+  price: 140
+  currency: USD
+  period: month
+  unit: per user
+- name: Ultimate (monthly)
+  price_text: $220 per user/month (billed monthly)
+  price: 220
+  currency: USD
+  period: month
+  unit: per user
+- name: Enterprise Platform
+  price_text: Contact us
+  period: none
+- name: Dedicated admin assistant seat
+  price_text: $25/mo
+  price: 25
+  currency: USD
+  period: month
+  unit: seat
+  included_quota: 5/mo meetings for admin assistants
+rate_limit_statements:
+- Number of meetings for admin assistants 5/mo
+- Number of meetings Unlimited
