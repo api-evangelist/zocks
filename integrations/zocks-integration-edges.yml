@@ -1,0 +1,237 @@
+generated: '2026-10-12'
+method: searched
+source:
+- https://zapier.com/apps/zocks/integrations
+checked:
+- https://composio.dev/toolkits/zocks
+- https://monid.ai/tools/zocks
+- https://n8n.io/integrations/zocks/
+- https://zapier.com/apps/zocks/integrations
+summary: null
+marketplace_apps:
+- marketplace: zapier
+  channel: ipaas-listing
+  app: zocks
+  url: https://zapier.com/apps/zocks/integrations
+  external_url: https://zocks.io/
+  partner_tier: BRONZE
+  triggers:
+  - key: business_start
+    label: Business Start
+  - key: children_starting_college
+    label: Children Starting College
+  - key: child_birth
+    label: Child Birth
+  - key: decision_made
+    label: Decision Made
+  - key: dev_meeting_summary_export
+    label: Meeting Summary Created
+  - key: divorce
+    label: Divorce
+  - key: family_member_health_issue
+    label: Family Member Health Issue
+  - key: future_meeting
+    label: Future Meeting
+  - key: health_issue
+    label: Health Issue
+  - key: hobby
+    label: Hobby
+  - key: inheritance
+    label: Inheritance
+  - key: interest
+    label: Interest
+  - key: job_change
+    label: Job Change
+  - key: marriage
+    label: Marriage
+  - key: meeting_prep_created
+    label: Meeting Prep Created
+  - key: membership
+    label: Membership
+  - key: moving
+    label: Moving
+  - key: pet
+    label: Pet Detected
+  - key: property_purchase
+    label: Property Purchase
+  - key: property_sale
+    label: Property Sale
+  - key: referral
+    label: Referral
+  - key: religion
+    label: Religion Detected
+  - key: retirement
+    label: Retirement
+  - key: session_finished
+    label: Meeting Finished
+  - key: task_created
+    label: Task Created
+  - key: traveling
+    label: Traveling
+  - key: widowing
+    label: Widowing
+  actions: []
+  searches: []
+edges:
+- partner_name: Asana
+  partner: asana
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/asana
+  direction: third-party
+  category: Project Management
+  partner_url: http://asana.com/
+- partner_name: Advyzon
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/advyzon
+  direction: third-party
+  category: Contact Management
+  partner_url: https://www.advyzon.com/
+- partner_name: monday.com
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/monday
+  direction: third-party
+  category: Project Management
+  partner_url: https://monday.com/
+- partner_name: Google Drive
+  partner: google-drive
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/google-drive
+  direction: third-party
+  category: File Management & Storage
+  partner_url: https://www.google.com/drive/
+- partner_name: Google Calendar
+  partner: google-calendar
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/google-calendar
+  direction: third-party
+  category: Calendar
+  partner_url: https://calendar.google.com/
+- partner_name: Anthropic (Claude)
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/anthropic-claude
+  direction: third-party
+  category: AI Models
+  partner_url: https://www.anthropic.com/
+- partner_name: Microsoft Teams
+  partner: microsoft-teams
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/microsoft-teams
+  direction: third-party
+  category: Microsoft
+  partner_url: https://products.office.com/en-us/microsoft-teams/group-chat-software
+- partner_name: EZLynx
+  partner: ezlynx
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/ezlynx
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: http://www.ezlynx.com/
+- partner_name: AI Guardrails by Zapier
+  partner: zapier
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/ai-guardrails-by-zapier-ca231637
+  direction: third-party
+  category: AI Safety, Compliance, Detection
+  partner_url: https://zapier.com/blog/ai-guardrails-guide/
+templates:
+- title: Send Slack messages when new meeting summaries are created in Zocks
+  url: https://zapier.com/apps/slack/integrations/zocks/255680835/send-slack-messages-when-new-meeting-summaries-are-created-in-zocks
+  apps:
+  - zocks
+  - slack
+- title: Create Docusign draft signature requests when new meeting summaries are created in Zocks
+  url: https://zapier.com/apps/docusign/integrations/zocks/255684093/create-docusign-draft-signature-requests-when-new-meeting-summaries-are-created-in-zocks
+  apps:
+  - zocks
+  - docusign
+- title: Send channel messages in Slack for new tasks created in Zocks
+  url: https://zapier.com/apps/slack/integrations/zocks/255687884/send-channel-messages-in-slack-for-new-tasks-created-in-zocks
+  apps:
+  - zocks
+  - slack
+- title: Start new Gmail drafts whenever businesses start in Zocks
+  url: https://zapier.com/apps/gmail/integrations/zocks/255697100/start-new-gmail-drafts-whenever-businesses-start-in-zocks
+  apps:
+  - zocks
+  - gmail
+- title: Create records in Zapier Tables when new tasks are created in Zocks
+  url: https://zapier.com/apps/zapier-tables/integrations/zocks/255698776/create-records-in-zapier-tables-when-new-tasks-are-created-in-zocks
+  apps:
+  - zocks
+  - zapier-tables
+- title: Add new Zocks AI meeting summaries to Maximizer CRM
+  url: https://zapier.com/apps/maximizer/integrations/zocks/255703090/add-new-zocks-ai-meeting-summaries-to-maximizer-crm
+  apps:
+  - zocks
+  - looping
+  - maximizer
+- title: Create Maximizer tasks from new Zocks action items
+  url: https://zapier.com/apps/maximizer/integrations/zocks/255703091/create-maximizer-tasks-from-new-zocks-action-items
+  apps:
+  - zocks
+  - maximizer
+- title: Create Maximizer tasks for new Zocks property sale signals
+  url: https://zapier.com/apps/maximizer/integrations/zocks/255703092/create-maximizer-tasks-for-new-zocks-property-sale-signals
+  apps:
+  - zocks
+  - maximizer
+- title: Create Maximizer tasks for new Zocks marriage signals
+  url: https://zapier.com/apps/maximizer/integrations/zocks/255703093/create-maximizer-tasks-for-new-zocks-marriage-signals
+  apps:
+  - zocks
+  - maximizer
+- title: Create Maximizer Tasks for new Zocks inheritance signals
+  url: https://zapier.com/apps/maximizer/integrations/zocks/255703094/create-maximizer-tasks-for-new-zocks-inheritance-signals
+  apps:
+  - zocks
+  - maximizer
+- title: Create and send outbound emails with Email by Zapier when meeting preps are created in Zocks
+  url: https://zapier.com/apps/email/integrations/zocks/255724231/create-and-send-outbound-emails-with-email-by-zapier-when-meeting-preps-are-created-in-zocks
+  apps:
+  - zocks
+  - email
+- title: Create detailed events in Google Calendar from future meetings in Zocks
+  url: https://zapier.com/apps/google-calendar/integrations/zocks/255725439/create-detailed-events-in-google-calendar-from-future-meetings-in-zocks
+  apps:
+  - zocks
+  - google-calendar
+template_total: 12
