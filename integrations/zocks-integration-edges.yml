@@ -8,6 +8,7 @@ checked:
 - https://n8n.io/integrations/zocks/
 - https://zapier.com/api/v4/apps/
 - https://zapier.com/apps/zocks/integrations
+- zoom/integrations/zoom-integration-edges.yml
 summary: null
 marketplace_apps:
 - marketplace: zapier
@@ -198,6 +199,23 @@ edges:
     builder: unknown (not in the directory record)
   detected_by: sweep-workflow-automation.py
   first_seen: '2026-10-15'
+- partner_name: Zoom (own)
+  partner: zoom
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.zoom.us/apps/an_KQeraSPyMEKowV9KDvQ
+  mirror_of: zoom/integrations/zoom-integration-edges.yml
+  apps:
+  - Zocks Meeting
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Zoom app
 templates:
 - title: Send Slack messages when new meeting summaries are created in Zocks
   url: https://zapier.com/apps/slack/integrations/zocks/255680835/send-slack-messages-when-new-meeting-summaries-are-created-in-zocks
