@@ -15,99 +15,7 @@
   evidence: https://zapier.com/apps/google-calendar/integrations/zocks/255725439/create-detailed-events-in-google-calendar-from-future-meetings-in-zocks
   template: https://zapier.com/apps/google-calendar/integrations/zocks/255725439/create-detailed-events-in-google-calendar-from-future-meetings-in-zocks
   source: template
-  status: pending-partner-spec
-  arazzo: null
-- slug: zocks-asana
-  label: Asana
-  partner: asana
-  partner_name: Asana
-  category: Project Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zocks/integrations/asana
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zocks-advyzon
-  label: Advyzon
-  partner_name: Advyzon
-  category: Contact Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zocks/integrations/advyzon
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zocks-monday-com
-  label: monday.com
-  partner_name: monday.com
-  category: Project Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zocks/integrations/monday
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zocks-google-drive
-  label: Google Drive
-  partner: google-drive
-  partner_name: Google Drive
-  category: File Management & Storage
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zocks/integrations/google-drive
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zocks-anthropic-claude
-  label: Anthropic (Claude)
-  partner_name: Anthropic (Claude)
-  category: AI Models
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zocks/integrations/anthropic-claude
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zocks-microsoft-teams
-  label: Microsoft Teams
-  partner: microsoft-teams
-  partner_name: Microsoft Teams
-  category: Microsoft
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zocks/integrations/microsoft-teams
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zocks-ezlynx
-  label: EZLynx
-  partner: ezlynx
-  partner_name: EZLynx
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zocks/integrations/ezlynx
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zocks-ai-guardrails-by-zapier
-  label: AI Guardrails by Zapier
-  partner: zapier
-  partner_name: AI Guardrails by Zapier
-  category: AI Safety, Compliance, Detection
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zocks/integrations/ai-guardrails-by-zapier-ca231637
-  source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: zocks-zapier
@@ -146,5 +54,108 @@
   evidence: https://marketplace.zoom.us/apps/an_KQeraSPyMEKowV9KDvQ
   source: edge
   relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: zocks-advyzon
+  label: Advyzon
+  partner_name: Advyzon
+  category: Contact Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/advyzon
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zocks-asana
+  label: Asana
+  partner: asana
+  partner_name: Asana
+  category: Project Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/asana
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zocks-monday-com
+  label: monday.com
+  partner: monday-com
+  partner_name: monday.com
+  category: Project Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/monday
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zocks-google-drive
+  label: Google Drive
+  partner: google-drive
+  partner_name: Google Drive
+  category: File Management & Storage
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/google-drive
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zocks-anthropic-claude
+  label: Anthropic (Claude)
+  partner: anthropic
+  partner_name: Anthropic (Claude)
+  category: AI Models
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/anthropic-claude
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zocks-microsoft-teams
+  label: Microsoft Teams
+  partner: microsoft-teams
+  partner_name: Microsoft Teams
+  category: Microsoft
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/microsoft-teams
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zocks-ezlynx
+  label: EZLynx
+  partner: ezlynx
+  partner_name: EZLynx
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/ezlynx
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zocks-ai-guardrails-by-zapier
+  label: AI Guardrails by Zapier
+  partner: zapier
+  partner_name: AI Guardrails by Zapier
+  category: AI Safety, Compliance, Detection
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zocks/integrations/ai-guardrails-by-zapier-ca231637
+  source: edge
+  relationship: ipaas-bridge
   status: not-a-workflow
   arazzo: null
